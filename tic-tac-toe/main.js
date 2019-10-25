@@ -32,7 +32,7 @@ function hasSomeoneWon() {
         document.getElementById("02").innerHTML + document.getElementById("11").innerHTML + document.getElementById("20").innerHTML,
     ]
 
-    if (moves < 9 && over === false) {
+    if (moves <= 9 && over === false) {
         for (let i = 0; i < conditions.length; i++) {
             if (conditions[i] === "XXX") {
                 document.getElementById("titleCard").innerHTML = "X WON!"

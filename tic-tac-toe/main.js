@@ -19,6 +19,7 @@ function buttonClicked(event) {
     let rowIdx = clickedButtonID[0]
     let colIdx = clickedButtonID[1]
     renderSquare(rowIdx, colIdx)
+    // comment for Juan
 }
 
 function hasSomeoneWon() {
